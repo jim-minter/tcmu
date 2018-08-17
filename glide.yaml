@@ -1,0 +1,7 @@
+package: github.com/jim-minter/tcmu
+import:
+- package: github.com/Azure/azure-sdk-for-go
+  subpackages:
+  - storage
+  version: v19.1.0
+- package: github.com/coreos/go-tcmu
